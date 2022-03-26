@@ -26,7 +26,7 @@ SECRET_KEY = '#*k)9t8vzu)4j2hr=l@)emxs^ev%6z5)ri$q4g4%nb^n+pr37y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['peekabook1.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['34.69.167.85']
 
 
 # Application definition
@@ -144,9 +144,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 
 #MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "files/")
 MEDIA_ROOT = os.path.join(BASE_DIR, 'files/')
